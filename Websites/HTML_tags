@@ -1,0 +1,68 @@
+<!DOCTYPE>  -T
+<html>      -E
+<head>      -E
+<body>      -E
+<title>      -E
+<meta>      -T
+<style>     -E    
+<link>      -T    
+<script>    -E    ***
+<h1>        -E
+<h2>        -E
+<h3>        -E
+<h4>        -E
+<h5>        -E
+<h6>        -E
+<p>         -E
+<br>        -T
+<b>         -E
+<strong>    -E
+<i>         -E
+<em>        -E
+<hr>        -T
+<img>       -T
+<figure>    -E
+<figcaption>-E
+<a>         -E
+<ol>        -E
+<ul>        -E
+<li>        -E
+<dl>        -E
+<dt>        -E
+<dd>        -E
+<summary>   -E
+<details>   -E
+<button>    -E
+<del>       -E
+<mark>      -E
+<abbr>      -E
+<blockquote>-E
+<address>   -E
+<sub>       -E
+<sup>       -E
+<table>     -E
+<tr>        -E
+<td>        -E
+<th>        -E
+<form>      -E
+<label>     -E
+<input>     -T
+<textarea>  -E
+<select>    -E
+<option>    -E
+<fieldset>  -E
+<div>       -E
+<span>      -E
+
+
+
+<header>    -E
+<footer>    -E
+<nav>       -E
+<main>      -E
+<aside>     -E
+<article>   -E
+<audio>     -E
+<video>     -E
+<source>    -E
+<map>       -E

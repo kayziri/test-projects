@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Transaction :: -Zenith.com</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--style>
+        body{
+            background-color: teal;
+            color: red;
+            text-align: center;
+        }
+    </style-->
+</head>
+<body>
+    <header>
+        <img src="img/ng-zenith-logo.png" alt="company-logo">
+        <span>ZENITH BANK PLC.</span>
+    </header>
+    <nav>
+        <a href="index.html">home</a> |
+        <a href="services.html">services</a> |
+        <a href="events.html">events</a> |
+        <a href="transaction.html">transact</a> |
+        <a href="about.html">about</a> |
+        <a href="contact.html">contact</a>
+    </nav>
+    <main>
+        <!-- This is my document's Body. -->
+        <div class="container-rc">  <!-- Transaction Container/wrapper -->
+            <div class="col-1"> <!-- Left panel/pane -->
+                <div class="trans-balance">Balance</div>
+                <div class="trans-withdraw">Withdraw</div>
+                <div class="trans-deposit">Deposit</div>
+                <div class="trans-transfer">Transfer</div>
+                <div class="trans-statement">Statement</div>
+            </div>
+            <div class="col-2"> <!-- Content Area -->
+                <div>Account Balance</div>
+                <div class="acct-balance">  <!-- Account Balance -->
+                    <div class="acct-name">
+                        <div>Account Name:</div>
+                        <span class="customer-name">ojo olakunle olusegun mckunjous</span>
+                    </div>
+                    <div>
+                        <div> <!-- Savings Account -->
+                            <div class="acct-title">Savings</div>
+                            <div>
+                                <span class="acct-currency">$</span>
+                                <span>100,000,000.00</span>
+                            </div>
+                        </div>
+                        <div> <!-- Current Account -->
+                            <div class="acct-title">Current</div>
+                            <div>
+                                <span class="acct-currency">$</span>
+                                <span>456,000,000.00</span>
+                            </div>
+                        </div>
+                        <div> <!-- Fixed Account -->
+                            <div class="acct-title">Fixed</div>
+                            <div>
+                                <span class="acct-currency">Eur</span>
+                                <span>100,000,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div> <!-- Account Withdrawal -->
+                    <form action="transaction.html" method="POST">
+                        <label for="sel-account">Select Account to Debit:</label><br>
+                        <select name="sel-acct" id="sel-account">
+                            <option value="sav">Savings</option>
+                            <option value="cur">Current</option>
+                            <option value="fix">Fixed</option>
+                        </select><br>
+                        <label for="txt-amt">Enter Amount:</label><br>
+                        <input type="text" name="debit-amt" id="txt-amt"><br>
+                        <label for="txt-pin">Enter Account PIN:</label><br>
+                        <input type="password" name="" id=""><br>
+                        input
+                    </form>
+                </div>
+                <!-- Content Area -->
+            </div>
+        </div>
+    </main>
+    
+    
+    <footer>
+        Copyright &copy; 1998 - 2020. All Rights Reserved.
+    </footer>
+</body>
+</html>
+
+        <!--div id="wrapper-div">
+            <div id="div1">div 1</div>
+            <div id="div2">div 2 is a good element</div>
+            <div id="div3">div 3</div>
+        </div-->
